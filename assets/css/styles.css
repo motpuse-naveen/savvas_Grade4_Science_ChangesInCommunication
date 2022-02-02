@@ -312,8 +312,8 @@ body, html {
 
 .card-body-thumb {
     text-align: center;
-    padding: 10px 0px;
-    height: 70px;
+    padding: 10px 5px;
+    height: 90px;
     line-height: 1.5em;
     overflow: hidden;
 }
@@ -546,7 +546,17 @@ ul.small-bullet li {
     list-style-type: disc;
     margin: 10px 0px;
 }
+ul.small-dashed {
+    list-style-type: none;
+}
 
+ul.small-dashed > li {
+    text-indent: 53px;
+  }
+  ul.small-dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
 table.table-style1 {
     border: 0.5px solid #000000;
     font-family: 'poppins-light';
@@ -1197,7 +1207,7 @@ a.graylink{
   
     to {
       /* left: auto; */
-      height: 70px;
+      height: 90px;
     }
   }
   
