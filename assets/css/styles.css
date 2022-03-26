@@ -793,6 +793,11 @@ a.graylink{
     font-family: 'poppins-semibold';
 }
 
+.wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
 .line {
     border-top: 1px solid black;
     flex-grow: 1;
